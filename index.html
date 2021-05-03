@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive pricing component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;600;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="header">
+        <img src="./images/pattern-circles.svg" />
+        <h1>Simple, traffic-based pricing</h1>
+        <h2>Sign-up for our 30-day trial. No credit card required.</h2>
+      </div>
+
+      <form class="form-card">
+        <div class="form-card__pageviews">Pageviews</div>
+        <input type="range" class="form-card__slider" />
+        <div class="form-card__price-display">$ /month</div>
+        <div class="form-card__billing-type">
+          Monthly Billing
+          <input type="checkbox" class="form-card__billing-type__toggle" />
+          Yearly Billing <span>-25%</span>
+        </div>
+        <hr />
+
+        <ul class="form-card__list">
+          <li>Unlimited websites</li>
+          <li>100% data ownership</li>
+          <li>Email reports</li>
+        </ul>
+
+        <button class="form-card__button">Start my trial</button>
+      </form>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style-type: none;
+}
+
+html {
+  font-family: 'Manrope', sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
+  background-color: #f0f3ff;
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  max-width: 350px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.header {
+  position: relative;
+  text-align: center;
+  padding: 7.5rem 0;
+}
+
+.header h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.header h2 {
+  padding: 0 3rem;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.header img {
+  z-index: -3;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translatex(-50%) translatey(-50%);
+          transform: translatex(-50%) translatey(-50%);
+}
+
+.form-card {
+  text-align: center;
+  border-radius: 1rem;
+  width: 100%;
+  display: block;
+  background-color: white;
+  padding: 1.5rem;
+}
+
+.form-card > div,
+.form-card > input {
+  margin-bottom: 1rem;
+}
+
+.form-card__pageviews {
+  font-weight: 600;
+}
+
+.form-card__slider {
+  width: 100%;
+}
+
+.form-card__billing-type {
+  font-size: 1.2rem;
+}
+
+.form-card__billing-type span {
+  color: #ff8c66;
+  margin-left: 1rem;
+  padding: 0 1rem;
+  border-radius: 1rem;
+  display: inline-block;
+  background-color: #feece7;
+}
+
+.form-card__list {
+  margin: 1rem auto;
+}
+
+.form-card__list li {
+  margin-top: 0.5rem;
+}
+
+.form-card__list li:before {
+  content: '\2713\0020';
+  color: #10d5c2;
+  padding-right: 0.5rem;
+}
+
+.form-card__button {
+  display: block;
+  margin: 0 auto;
+  background-color: #293356;
+  padding: 0.75rem 2rem;
+  color: #eee;
+  border-radius: 2rem;
+  border: 0;
+  outline: 0;
+}
